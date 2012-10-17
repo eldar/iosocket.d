@@ -8,7 +8,7 @@ function showMessage(message)
 }
 
 function init() {
-  var socket = VibeSocket.connect("/socketio");
+  var socket = IoSocket.connect("/socketio");
   socket.on("connect", function(event) {
 
     document.getElementById("send").onclick = function() {

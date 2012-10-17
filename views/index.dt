@@ -2,7 +2,7 @@
 html(lang="en")
     head
         title= "hello"
-        script(src="/public/vibesocket.js")
+        script(src="/public/iosocket.js")
         script(src="/public/app.js")
 
     body

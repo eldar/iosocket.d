@@ -6,9 +6,9 @@
 
 (function(global) {
 
-  var VibeSocket = {};
+  var IoSocket = {};
   
-  global["VibeSocket"] = VibeSocket;
+  global["IoSocket"] = IoSocket;
 
   var util = {};
 
@@ -105,7 +105,7 @@
     this.ws.send(JSON.stringify(data));
   }
 
-  VibeSocket.connect = function(host) {
+  IoSocket.connect = function(host) {
     var uri = util.parseUri(host)
       , uuri
       , socket;
