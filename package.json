@@ -1,0 +1,13 @@
+{
+    "name": "iosocket",
+    "version": "0.0.1",
+    "description": "Socket.IO-like wrapper around WebSockets for Vibe.d",
+    "homepage": "https://github.com/eldar/iosocket.d",
+    "copyright": "Copyright © 2012, Eldar Insafutdinov",
+    "authors": [
+        "Eldar Insafutdinov",
+        "LearnBoost"
+    ],
+    "dependencies": {
+    }
+}
